@@ -22,6 +22,29 @@
     <h1>voir la console</h1>
     <script>
       //démarre ici
+
+      var languageList = ['html', 'css', 'js']
+      var addLanguageList = ['java', 'python', 'c++']
+
+      for (var i = 0; i< addLanguageList.length; i++) {
+        languageList.push(addLanguageList[i])
+        console.log(languageList);
+      }
+
+      // languageList.splice(0,1, 'html5')
+      languageList[0] = 'html5'
+      console.log(languageList);
+
+      
+      // console.log(languageList.length);
+      // languageList.splice(languageList.length-1,1 )
+      languageList.splice(5,1 )
+      console.log(languageList);
+      
+      // languageList.pop()
+      // console.log(languageList);
+
+
     </script>
   </body>
 </html>
